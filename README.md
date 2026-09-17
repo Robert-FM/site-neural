@@ -115,3 +115,18 @@ Não foram encontrados testes automatizados ou uma configuração de ferramenta 
 🔗 LinkedIn: [linkedin.com/in/robertdemelo](https://www.linkedin.com/in/robertdemelo/)
 
 🌐 HTML | CSS | JavaScript | Desenvolvimento Web | Acessibilidade
+
+## 📄 Direitos autorais
+
+© 2026 Robert Melo / Neural Learn. Todos os direitos reservados.
+
+Este repositório contém o código-fonte do site institucional da Neural Learn.
+O código, a identidade visual, os textos, imagens e demais conteúdos deste
+projeto não são disponibilizados sob uma licença de código aberto.
+
+Não é permitida a reprodução, distribuição, modificação ou utilização
+comercial deste projeto, no todo ou em parte, sem autorização prévia
+do autor.
+
+As marcas, logotipos, imagens e conteúdos de terceiros eventualmente
+utilizados permanecem sujeitos aos direitos de seus respectivos titulares.

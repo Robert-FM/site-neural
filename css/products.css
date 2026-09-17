@@ -1,0 +1,117 @@
+/* =========================
+   SEÇÃO DE PRODUTOS
+========================= */
+
+.products-section {
+  padding: 70px 0;
+  background: #f4fbfb;
+}
+
+.products-section .focus-content {
+  min-height: auto;
+  display: block;
+  padding: 0;
+  margin: 0 0 32px 0;
+  max-width: 760px;
+}
+.products-section .eyebrow {
+  margin-bottom: 14px;
+}
+
+.products-section h2 {
+  margin: 0;
+}
+
+/* Carrossel */
+.products-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 24px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+/* 2 produtos por vez */
+.products-carousel .card {
+  flex: 0 0 calc(50% - 12px);
+  padding: 26px;
+}
+
+.products-carousel img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  background: #f4f4f4; /* fundo neutro */
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 18px;
+}
+
+.products-carousel a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Botões */
+.carousel-btn {
+  background: #0d7377;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-btn.prev {
+  left: -20px;
+}
+
+.carousel-btn.next {
+  right: -20px;
+}
+
+.carousel-btn:hover {
+  background: #001b2e;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .products-section {
+    padding: 45px 0;
+  }
+
+  .products-carousel .card {
+    flex: 0 0 100%;
+  }
+
+  .carousel-btn.prev {
+    left: 4px;
+  }
+
+  .carousel-btn.next {
+    right: 4px;
+  }
+}
+.products-carousel .card {
+  text-align: center;
+}
+
+.products-carousel .card a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

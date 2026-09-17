@@ -1,0 +1,73 @@
+/* =========================================================
+   Layout — container, grids e estrutura
+   ========================================================= */
+
+.container {
+  width: min(calc(100% - 2.5rem), var(--container));
+  margin-inline: auto;
+}
+
+.narrow {
+  width: min(calc(100% - 2.5rem), 900px);
+  margin-inline: auto;
+}
+
+main {
+  display: block;
+}
+
+section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 4rem 0;
+  }
+}
+
+/* Grid genérico para hero/seções com mídia + texto */
+.split-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.split-grid--reverse {
+  grid-template-columns: 1fr 1.05fr;
+}
+
+.split-grid--reverse .split-grid__media {
+  order: 2;
+}
+
+@media (max-width: 900px) {
+  .split-grid,
+  .split-grid--reverse {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .split-grid--reverse .split-grid__media {
+    order: 0;
+  }
+}
+
+/* Grid de cartões */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.cards-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .cards-grid,
+  .cards-grid--two {
+    grid-template-columns: 1fr;
+  }
+}

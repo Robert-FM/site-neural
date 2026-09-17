@@ -1,0 +1,13 @@
+/* =========================================================
+   Neural Learning — entry point dos estilos
+   Importa cada módulo na ordem correta:
+   base → layout → components → header → sections
+   ========================================================= */
+
+@import url("./base.css");
+@import url("./layout.css");
+@import url("./components.css");
+@import url("./header.css");
+@import url("./sections.css");
+@import url("./products.css");
+@import url("./footer.css");

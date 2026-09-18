@@ -43,26 +43,7 @@ neural-learning/
 │   ├── main.css
 │   ├── products.css
 │   └── sections.css
-├── images/
-│   ├── contact-group.jpg
-│   ├── ebook-produto.jpeg
-│   ├── ebook-produto2.jpeg
-│   ├── ebook-produto3.jpeg
-│   ├── ebook-produto4.jpeg
-│   ├── focus-bg.jpeg
-│   ├── focus-bg.jpg
-│   ├── gmail.png
-│   ├── hero-learning.jpeg
-│   ├── instagram.png
-│   ├── linkedin.png
-│   ├── mission-brain.jpeg
-│   ├── mission-collab.jpeg
-│   ├── mission-data.jpeg
-│   ├── services-classroom.jpeg
-│   ├── team-andrea.jpeg
-│   ├── team-robert.jpg
-│   ├── team-yago.jpeg
-│   └── youtube.png
+├── images/ (imagens do projeto)
 └── js/
     └── main.js
 ```
